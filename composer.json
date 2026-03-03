@@ -1,0 +1,34 @@
+{
+    "name": "enso-san/blade-gms-r",
+    "description": "A package to easily make use of Googles Material Design Symbols (Rounded) in your Laravel Blade views.",
+    "keywords": ["Blade", "Google", "Laravel", "Material", "Symbols"],
+    "homepage": "https://github.com/enso-san/blade-gms-r",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Hoffmann"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "blade-ui-kit/blade-icons": "^1.9",
+        "illuminate/support": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EnsoSan\\GMS_r\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EnsoSan\\GMS_r\\GMS_rServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
